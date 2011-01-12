@@ -1,0 +1,182 @@
+/* line 4, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 6, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 16, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, abbr, acronym, address, code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 18, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" "";
+}
+/* line 45, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 4, sass/custom.scss */
+#container {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, sass/custom.scss */
+#header {
+  width: 100%;
+  margin: 10px;
+  font-family: serif;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+
+/* line 23, sass/custom.scss */
+#content {
+  margin-top: 30px;
+}
+/* line 26, sass/custom.scss */
+#content #scss {
+  display: inline;
+  float: right;
+  width: 450px;
+  border-left: 2px solid grey;
+  padding-left: 40px;
+}
+/* line 31, sass/custom.scss */
+#content #scss #scss_code {
+  font-family: "Courier New";
+  margin-top: 0px;
+  background-color: #dddddd;
+  min-height: 400px;
+  font-size: 90%;
+  overflow: scroll;
+}
+/* line 41, sass/custom.scss */
+#content #css_form {
+  width: 400px;
+}
+/* line 43, sass/custom.scss */
+#content #css_form .iform {
+  font-family: Arial;
+  font-size: 90%;
+  padding-left: 20px;
+}
+/* line 47, sass/custom.scss */
+#content #css_form .iform ul {
+  list-style: none;
+  width: 100%;
+}
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+#content #css_form .iform ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 52, sass/custom.scss */
+#content #css_form .iform label {
+  font-weight: bold;
+}
+/* line 53, sass/custom.scss */
+#content #css_form .iform .itext, #content #css_form .iform .itextarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 54, sass/custom.scss */
+#content #css_form .iform .itextarea {
+  height: 200px;
+}
+/* line 55, sass/custom.scss */
+#content #css_form .iform .iheader {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed gray;
+  font-size: 120%;
+  text-align: right;
+}
+/* line 63, sass/custom.scss */
+#content #css_form .iform .ibutton {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border: 0;
+  height: 40px;
+  font-size: 150%;
+  background-color: #FE872A;
+  font-color: #FFFFFF;
+}
+/* line 73, sass/custom.scss */
+#content #css_form .iform .ibutton:hover {
+  background-color: #EF9651;
+  font-color: #000000;
+}

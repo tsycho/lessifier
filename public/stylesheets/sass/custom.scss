@@ -1,0 +1,79 @@
+@import "blueprint/reset";
+@import "compass/utilities";
+
+#container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {	
+	width: 100%;
+	margin: 10px;
+
+	font-family: serif;
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+	
+	padding-bottom: 20px;
+	border-bottom: 2px solid grey;
+}
+
+#content {
+  margin-top: 30px;
+
+  #scss {  
+    @include float-right;
+    width: 450px;
+    border-left: 2px solid grey;
+    padding-left: 40px;
+    #scss_code {
+      font-family: "Courier New";
+      margin-top: 0px;
+      background-color: #dddddd;
+      min-height: 400px;
+      font-size: 90%;
+      overflow: scroll;
+    }
+  }
+  
+  #css_form {
+    width: 400px;
+    .iform {
+      font-family: Arial;
+      font-size: 90%;
+      padding-left: 20px;
+      ul { 
+        @include no-bullets; 
+        width: 100%;
+      }
+      
+      label { font-weight: bold; }
+      .itext, .itextarea { width: 100%; margin-bottom: 15px;}
+      .itextarea { height: 200px; }
+      .iheader { 
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed gray;
+        font-size: 120%;
+        text-align: right;
+      }
+      .ibutton { 
+        margin-left: 25%;
+  	    margin-right: 25%;
+        width: 50%; 
+        border: 0;
+        height: 40px;
+        font-size: 150%;
+        background-color: #FE872A;
+        font-color: #FFFFFF;
+      }
+      .ibutton:hover {
+        background-color: #EF9651;
+        font-color: #000000;
+      }
+    }
+  }
+}
