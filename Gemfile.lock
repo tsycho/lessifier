@@ -35,6 +35,9 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     i18n (0.5.0)
+    jquery-rails (0.2.6)
+      rails (~> 3.0)
+      thor (~> 0.14.4)
     lessify (0.1.1)
       css_parser
     mail (2.2.14)
@@ -91,6 +94,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jquery-rails (>= 0.2.6)
   lessify (>= 0.1.1)
   rails (= 3.0.3)
   rspec (>= 2.4.0)
