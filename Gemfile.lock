@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/jhuckabee/hassle.git
+  revision: e99d975e4af31c7ae6617b2ff1e5371bc8fe63f7
+  specs:
+    hassle (0.0.1)
+      haml
+      rack
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -37,9 +45,6 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     haml (3.0.25)
-    hassle (0.0.1)
-      haml
-      rack
     i18n (0.5.0)
     jquery-rails (0.2.6)
       rails (~> 3.0)
@@ -101,7 +106,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass (>= 0.10.6)
-  hassle
+  hassle!
   jquery-rails (>= 0.2.6)
   lessify (>= 0.1.1)
   rails (= 3.0.3)
