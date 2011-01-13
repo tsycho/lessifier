@@ -83,12 +83,14 @@ a img {
 
 /* line 22, sass/custom.scss */
 #container {
+  font-family: Arial;
+  font-size: 90%;
   width: 950px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 28, sass/custom.scss */
+/* line 30, sass/custom.scss */
 #header {
   width: 100%;
   margin: 10px;
@@ -100,12 +102,18 @@ a img {
   border-bottom: 2px solid grey;
 }
 
-/* line 41, sass/custom.scss */
-#content {
-  font-family: Arial;
-  font-size: 90%;
+/* line 43, sass/custom.scss */
+#footer {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  border-top: 2px solid grey;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
-/* line 44, sass/custom.scss */
+
+/* line 53, sass/custom.scss */
 #content .iheader {
   font-weight: bold;
   margin-top: 20px;
@@ -113,19 +121,19 @@ a img {
   font-size: 120%;
   text-align: right;
 }
-/* line 46, sass/custom.scss */
+/* line 55, sass/custom.scss */
 #content #css_form {
   display: inline;
   float: left;
   margin-left: 20px;
   width: 400px;
 }
-/* line 49, sass/custom.scss */
+/* line 58, sass/custom.scss */
 #content #css_form .iform {
   padding: 20px;
   border: 1px dashed gray;
 }
-/* line 51, sass/custom.scss */
+/* line 60, sass/custom.scss */
 #content #css_form .iform ul {
   list-style: none;
   width: 100%;
@@ -136,20 +144,20 @@ a img {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 56, sass/custom.scss */
+/* line 65, sass/custom.scss */
 #content #css_form .iform label {
   font-weight: bold;
 }
-/* line 57, sass/custom.scss */
+/* line 66, sass/custom.scss */
 #content #css_form .iform .itext, #content #css_form .iform .itextarea {
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 58, sass/custom.scss */
+/* line 67, sass/custom.scss */
 #content #css_form .iform .itextarea {
   height: 200px;
 }
-/* line 59, sass/custom.scss */
+/* line 68, sass/custom.scss */
 #content #css_form .iform .ibutton {
   margin-left: 25%;
   margin-right: 25%;
@@ -161,12 +169,12 @@ a img {
   background-color: #FE872A;
   font-color: #FFFFFF;
 }
-/* line 69, sass/custom.scss */
+/* line 78, sass/custom.scss */
 #content #css_form .iform .ibutton:hover {
   background-color: #EF9651;
   font-color: #000000;
 }
-/* line 76, sass/custom.scss */
+/* line 85, sass/custom.scss */
 #content #scss {
   display: inline;
   float: left;
@@ -175,7 +183,7 @@ a img {
   padding-left: 20px;
   width: 480px;
 }
-/* line 82, sass/custom.scss */
+/* line 91, sass/custom.scss */
 #content #scss #scss_code {
   padding: 20px;
   border: 1px dashed gray;
