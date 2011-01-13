@@ -127,43 +127,43 @@ a img {
   text-align: right;
 }
 /* line 59, sass/custom.scss */
-#content #css_form {
+#content #css_form_div {
   display: inline;
   float: left;
   margin-left: 20px;
   width: 400px;
 }
 /* line 62, sass/custom.scss */
-#content #css_form .iform {
+#content #css_form_div .iform {
   padding: 20px;
   border: 1px dashed gray;
 }
 /* line 64, sass/custom.scss */
-#content #css_form .iform ul {
+#content #css_form_div .iform ul {
   list-style: none;
   width: 100%;
 }
 /* line 11, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
-#content #css_form .iform ul li {
+#content #css_form_div .iform ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0px;
 }
 /* line 69, sass/custom.scss */
-#content #css_form .iform label {
+#content #css_form_div .iform label {
   font-weight: bold;
 }
 /* line 70, sass/custom.scss */
-#content #css_form .iform .itext, #content #css_form .iform .itextarea {
+#content #css_form_div .iform .itext, #content #css_form_div .iform .itextarea {
   width: 100%;
   margin-bottom: 15px;
 }
 /* line 71, sass/custom.scss */
-#content #css_form .iform .itextarea {
+#content #css_form_div .iform .itextarea {
   height: 200px;
 }
 /* line 72, sass/custom.scss */
-#content #css_form .iform .ibutton {
+#content #css_form_div .iform .ibutton {
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 20px;
@@ -175,7 +175,7 @@ a img {
   font-color: #FFFFFF;
 }
 /* line 82, sass/custom.scss */
-#content #css_form .iform .ibutton:hover {
+#content #css_form_div .iform .ibutton:hover {
   background-color: #EF9651;
   font-color: #000000;
 }

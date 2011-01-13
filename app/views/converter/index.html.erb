@@ -1,3 +1,31 @@
-<pre id="scss_code">
-<%= @scss %>
-</pre>
+<div id="css_form_div">
+  <div class="iheader">Lessify your CSS</div>
+  <%= form_tag(root_path, {:id => 'css_form', :method => 'post', :class => 'iform', :remote => true}) do %>
+    <ul>
+      <li>
+        <label for="URL">URL</label><br/>
+        <input class="itext" type="text" name="url" id="url" /><br/>
+      </li>
+      <li>
+        <label for="CSS">CSS</label><br/>
+        <textarea class="itextarea" name="css" id="css"></textarea><br/>
+      </li>
+      <li>
+        <label>Print Declarations: </label>
+        <input type="radio" name="print_declarations" value="yes" checked>Yes </input>
+        <input type="radio" name="print_declarations" value="no">No </input>
+        <br/>
+      </li>
+      <li>
+        <input type="submit" class="ibutton" id="lessify" value="Lessify!" /><br/>
+      </li>
+    </ul>
+  <% end %>
+</div>
+
+<div id="scss">
+  <div class="iheader">SCSS</div>
+  <pre id="scss_code">
+    <%= @scss %>
+  </pre>
+</div>

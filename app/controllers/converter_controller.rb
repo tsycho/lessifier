@@ -14,6 +14,11 @@ class ConverterController < ApplicationController
     end
     l = Lessify.new(:css => css)
     @scss = l.to_scss('tab' => '  ', :print_declarations => print_dec)
+    
+    respond_to do |format|
+      format.html
+      format.js {}
+    end
   end
 
 end
