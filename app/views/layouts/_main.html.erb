@@ -1,13 +1,9 @@
 <div id="content">
 
-  <div id="scss">
-    <%= yield %>
-  </div>
-
   <div id="css_form">
+    <div class="iheader">Lessify your CSS</div>
     <%= form_tag "", :method => 'post', :class => 'iform' %>
     <ul>
-      <li class="iheader">Lessify your CSS</li>
       <li>
         <label for="URL">URL</label><br/>
         <input class="itext" type="text" name="url" id="url" /><br/>
@@ -22,5 +18,11 @@
     </ul>
   </form>
   </div>
+  
+  <div id="scss">
+    <div class="iheader">SCSS</div>
+    <%= yield %>
+  </div>
+
 
 </div>
