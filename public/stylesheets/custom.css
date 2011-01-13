@@ -153,6 +153,7 @@ a img {
 #content #css_form .iform .ibutton {
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 20px;
   width: 50%;
   border: 0;
   height: 40px;
@@ -160,12 +161,12 @@ a img {
   background-color: #FE872A;
   font-color: #FFFFFF;
 }
-/* line 68, sass/custom.scss */
+/* line 69, sass/custom.scss */
 #content #css_form .iform .ibutton:hover {
   background-color: #EF9651;
   font-color: #000000;
 }
-/* line 75, sass/custom.scss */
+/* line 76, sass/custom.scss */
 #content #scss {
   display: inline;
   float: left;
@@ -174,7 +175,7 @@ a img {
   padding-left: 20px;
   width: 480px;
 }
-/* line 81, sass/custom.scss */
+/* line 82, sass/custom.scss */
 #content #scss #scss_code {
   padding: 20px;
   border: 1px dashed gray;

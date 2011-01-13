@@ -4,6 +4,7 @@ class ConverterController < ApplicationController
 
   def index    
     css = params[:css] || ""
+    print_dec = params[:print_declarations] == "yes" ? true : false
     if params[:url]
       begin
         css = Net::HTTP.get URI.parse(params[:url])
@@ -12,7 +13,7 @@ class ConverterController < ApplicationController
       end
     end
     l = Lessify.new(:css => css)
-    @scss = l.to_scss('tab' => '  ')
+    @scss = l.to_scss('tab' => '  ', :print_declarations => print_dec)
   end
 
 end
