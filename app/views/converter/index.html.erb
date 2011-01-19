@@ -17,15 +17,12 @@
         <br/>
       </li>
       <li>
-        <input type="submit" class="ibutton" id="lessify" value="Lessify!" /><br/>
+        <%= submit_tag("Lessify!", {:class => 'ibutton', :id => 'btn_lessify'})%>        
       </li>
     </ul>
   <% end %>
+  
+  <div class="lessify-errors"></div>
 </div>
 
-<div id="scss">
-  <div class="iheader">SCSS</div>
-  <pre id="scss_code">
-    <%= @scss %>
-  </pre>
-</div>
+<%= render 'scss' %>

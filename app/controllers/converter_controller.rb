@@ -16,8 +16,11 @@ class ConverterController < ApplicationController
     @scss = l.to_scss('tab' => '  ', :print_declarations => print_dec)
     
     respond_to do |format|
-      format.html
-      format.js {}
+      format.html do
+        if request.xhr?
+          render :partial => 'scss', :layout => false
+        end
+      end
     end
   end
 
